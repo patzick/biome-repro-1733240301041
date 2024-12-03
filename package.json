@@ -4,7 +4,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"format": "biome format .",
+		"format": "biome format . --write",
 		"lint": "biome lint",
 		"check": "biome check",
 		"ci": "biome ci"
